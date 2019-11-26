@@ -31,7 +31,7 @@ nav {
 }
 
 .logo a {
-    color: #000;
+    color: #fff;
     text-transform: uppercase;
     font-weight: 700;
 }
@@ -49,6 +49,17 @@ nav ul li:not(:first-child) {
     margin-left: 48px;
 }
 
-// nav ul li:last-child {
+nav ul li:last-child {
+    margin-right: 48px;
+}
 
-// }
+nav ul li a {
+    display: inline-block;
+    outline: none;
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 14px;
+    letter-spacing: 1.2px;
+    font-weight: 600;
+}
