@@ -34,6 +34,9 @@ nav {
     color: #fff;
     text-transform: uppercase;
     font-weight: 700;
+    font-size: 18px;
+    letter-spacing: 0px;
+    text-decoration: none;
 }
 
 nav ul {
@@ -42,7 +45,7 @@ nav ul {
 
 nav ul li {
     display: inline-block;
-    //float: left;
+    float: left;
 }
 
 nav ul li:not(:first-child) {
@@ -50,7 +53,7 @@ nav ul li:not(:first-child) {
 }
 
 nav ul li:last-child {
-    margin-right: 48px;
+    margin-right: 24px;
 }
 
 nav ul li a {
@@ -119,7 +122,7 @@ nav ul li a {
         .nav-wrapper ul li a {
             padding: 10px 24px;
             opacity: 0;
-            color: #fff;
+            color: #000;
             font-size: 14px;
             font-weight: 600;
             letter-spacing: 1.2px;
@@ -162,3 +165,37 @@ nav ul li a {
         }
     }
 
+#nav:checked + .nav-btn {
+    transform: rotate(45deg);
+}
+
+#nav:checked + .nav-btn i {
+    background: #000;
+    transition: transform 0.2s ease;
+}
+
+#nav:checked + .nav-btn i:nth-child(1) {
+    transition: translateY(6px) rotate(180deg);
+}
+
+#nav:checked + .nav-btn i:nth-child(2) {
+    opacity: 0;
+}
+
+#nav:checked + .nav-btn i:nth-child(3) {
+    transform: translateY(-11px) rotate(90deg);
+}
+
+#nav:checked ~ .nav-wrapper {
+    z-index: 9990;
+    opacity: 1;
+}
+
+#nav:checked ~ .nav-wrapper ul li a {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+.hidden {
+    display: none;
+}
