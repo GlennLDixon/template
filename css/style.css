@@ -69,13 +69,23 @@ nav ul li a {
   letter-spacing: 1.2px;
   font-weight: 600; }
 
-.first-section {
-  background: #F5F5F5; }
-  .first-section-info {
+.first {
+  background: #F5F5F5;
+  position: absolute;
+  width: 101%;
+  padding: 0 -15px 0 0; }
+  .first__side-info {
     border: 1px solid red;
-    height: 40%;
+    height: 100%;
     width: 40%;
     background: #000; }
+  .first__main-info {
+    background: #fff;
+    float: right;
+    width: 100%;
+    margin: 0 0 50% 0;
+    border: 1px solid red;
+    position: relative; }
 
 @media screen and (max-width: 864px) {
   .logo {

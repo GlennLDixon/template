@@ -91,14 +91,26 @@ nav ul li a {
     font-weight: 600;
 }
 
-.first-section {
+.first {
     background: $grey;
+    position: absolute;
+    width: 101%;
+    padding: 0 -15px 0 0;
     
-    &-info {
+    &__side-info {
         border: 1px solid red;
-        height: 40%;
+        height: 100%;
         width: 40%;
         background: $black;
+    }
+    
+    &__main-info {
+        background: $white;
+        float: right;
+        width: 100%;
+        margin: 0 0 50% 0;
+        border: 1px solid red;
+        position: relative;
     }
 }
 
