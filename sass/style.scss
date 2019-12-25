@@ -4,6 +4,8 @@ $grey: #F5F5F5;
 
 $primary: #762E84;
 
+$head-font: 2rem;
+$para-font: 1.2rem;
 
 * {
     box-sizing: border-box;
@@ -91,24 +93,37 @@ nav ul li a {
     font-weight: 600;
 }
 
+/////////////// SECTION UNDER THE HEADER //////////////////////
+
 .first {
     background: $grey;
     position: absolute;
     width: 101%;
     padding: 0 -15px 0 0;
+
+    h1 {
+        text-align: center;
+        font-size: $head-font;
+    }
+
+    p {
+        text-align: center;
+        font-size: $para-font;
+    }
     
     &__side-info {
-        border: 2px solid red;
-        height: 100%;
-        width: 40%;
+        border: 1px solid red;
+        height: 700px;
+        width: 100%;
         background: $black;
     }
     
     &__main-info {
-        background: $white;
+        background: $grey;
         float: right;
-        width: 100%;
-        margin: 0 0 50% 0;
+        width: 75%;
+        height: 600px;
+        margin: -43.8% 0 50% 0;
         border: 1px solid red;
         position: relative;
     }

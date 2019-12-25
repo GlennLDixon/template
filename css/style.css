@@ -74,16 +74,23 @@ nav ul li a {
   position: absolute;
   width: 101%;
   padding: 0 -15px 0 0; }
+  .first h1 {
+    text-align: center;
+    font-size: 2rem; }
+  .first p {
+    text-align: center;
+    font-size: 1.2rem; }
   .first__side-info {
-    border: 2px solid red;
-    height: 100%;
-    width: 40%;
+    border: 1px solid red;
+    height: 700px;
+    width: 100%;
     background: #000; }
   .first__main-info {
-    background: #fff;
+    background: #F5F5F5;
     float: right;
-    width: 100%;
-    margin: 0 0 50% 0;
+    width: 75%;
+    height: 600px;
+    margin: -43.8% 0 50% 0;
     border: 1px solid red;
     position: relative; }
 
