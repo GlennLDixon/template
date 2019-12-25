@@ -4,8 +4,13 @@ $grey: #F5F5F5;
 
 $primary: #762E84;
 
-$head-font: 2rem;
-$para-font: 1.2rem;
+$head-size: 2rem;
+$para-size: 1.7rem;
+
+$head-font: 'Chivo', sans-serif;
+$para-font: 'Overpass', sans-serif;
+
+
 
 * {
     box-sizing: border-box;
@@ -103,12 +108,18 @@ nav ul li a {
 
     h1 {
         text-align: center;
-        font-size: $head-font;
+        font-size: $head-size;
+        font-family: $head-font;
+        margin: 60px;
     }
 
     p {
         text-align: center;
-        font-size: $para-font;
+        font-size: $para-size;
+        font-family: $para-font;
+        line-height: 200%;
+        padding: 0 20px 0 25px;
+        margin: 80px 0 0 0;
     }
     
     &__side-info {
@@ -116,12 +127,16 @@ nav ul li a {
         height: 700px;
         width: 100%;
         background: $black;
+
+        p {
+            color: white;
+        }
     }
     
     &__main-info {
         background: $grey;
         float: right;
-        width: 75%;
+        width: 65%;
         height: 600px;
         margin: -43.8% 0 50% 0;
         border: 1px solid red;
