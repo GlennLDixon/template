@@ -86,18 +86,24 @@ nav ul li a {
     line-height: 200%;
     padding: 0 20px 0 25px;
     margin: 80px 0 0 0; }
-  .first__side-info {
+  .first__tag-line {
     height: 700px;
     width: 100%;
     margin: -80px 0 0 0;
-    background: #000; }
-    .first__side-info p {
+    background: #20002c;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #cbb4d4, #20002c);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #cbb4d4, #20002c);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ }
+    .first__tag-line p {
       color: white;
-      float: left; }
-  .first__main-info {
+      float: left;
+      margin: 200px 0 0 100px; }
+  .first__about-us {
     background: #F5F5F5;
     float: right;
-    width: 65%;
+    width: 60%;
     height: 600px;
     margin: -43.8% 0 50% 0;
     position: relative; }

@@ -122,23 +122,26 @@ nav ul li a {
         margin: 80px 0 0 0;
     }
     
-    &__side-info {
+    &__tag-line {
         height: 700px;
         width: 100%;
         margin: -80px 0 0 0;
-        background: $black;
+        background: #20002c;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to left, #cbb4d4, #20002c);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to left, #cbb4d4, #20002c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 
         p {
             color: white;
             float: left;
-            
+            margin: 200px 0 0 100px;
         }
     }
     
-    &__main-info {
+    &__about-us {
         background: $grey;
         float: right;
-        width: 65%;
+        width: 60%;
         height: 600px;
         margin: -43.8% 0 50% 0;
         position: relative;
