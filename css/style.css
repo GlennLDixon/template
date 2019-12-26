@@ -87,19 +87,19 @@ nav ul li a {
     padding: 0 20px 0 25px;
     margin: 80px 0 0 0; }
   .first__side-info {
-    border: 1px solid red;
     height: 700px;
     width: 100%;
+    margin: -80px 0 0 0;
     background: #000; }
     .first__side-info p {
-      color: white; }
+      color: white;
+      float: left; }
   .first__main-info {
     background: #F5F5F5;
     float: right;
     width: 65%;
     height: 600px;
     margin: -43.8% 0 50% 0;
-    border: 1px solid red;
     position: relative; }
 
 @media screen and (max-width: 864px) {
