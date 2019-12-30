@@ -150,17 +150,19 @@ nav ul li a {
 
 ///////////////////// PANELS SECTION //////////////////////
 
-// .panels{
-//     border: 1px solid red;
-//     width: 100%;
-//     height: 100vh;
-//     background-color: pink;
+.panels{
+    border: 1px solid red;
+    width: 100%;
+    height: 100vh;
+    background-color: pink;
+    margin-top: -500px;
+    position: relative;
     
-// }
+}
 
-// .footer {
-//     border: 1px solid red;
-// }
+.footer {
+    border: 1px solid red;
+}
 ///////////////////// MEDIA QUERIES /////////////////////
 
     @media screen and (max-width: 864px) {
