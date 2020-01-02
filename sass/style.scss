@@ -157,14 +157,15 @@ nav ul li a {
     position: relative;
 
     &_one {
-        border: 1px solid green;
         height: 33.33%;
         &_one--info {
+            
             background-image: url(../img/david-latorre-romero-0tNF_mHm_Ls-unsplash.jpg);
             float: right;
             border: 1px solid red;
             width: 10px;
             p {
+                border: 1px solid green;
                 position: absolute;
                 margin: 20px 0 0 0;
             }

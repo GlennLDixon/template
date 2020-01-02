@@ -114,7 +114,6 @@ nav ul li a {
   border: 2px solid red;
   position: relative; }
   .panels_one {
-    border: 1px solid green;
     height: 33.33%; }
     .panels_one_one--info {
       background-image: url(../img/david-latorre-romero-0tNF_mHm_Ls-unsplash.jpg);
@@ -122,6 +121,7 @@ nav ul li a {
       border: 1px solid red;
       width: 10px; }
       .panels_one_one--info p {
+        border: 1px solid green;
         position: absolute;
         margin: 20px 0 0 0; }
   .panels_two {
