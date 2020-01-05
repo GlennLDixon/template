@@ -50,8 +50,7 @@ nav ul {
 
 nav ul li {
   display: inline-block;
-  padding: 0 10px 0 0px;
-  float: center; }
+  padding: 0 10px 0 0px; }
 
 nav ul li:not(:first-child) {
   margin-left: 48px; }
@@ -114,16 +113,18 @@ nav ul li a {
   border: 2px solid red;
   position: relative; }
   .panels_one {
+    border: 1px solid green;
     height: 33.33%; }
-    .panels_one_one--info {
-      background-image: url(../img/david-latorre-romero-0tNF_mHm_Ls-unsplash.jpg);
+    .panels_one_one--img {
+      background-image: url(../img/side1.jpg);
+      width: 100px;
+      color: red; }
+    .panels_one p {
       float: right;
+      position: absolute;
+      margin: 20px 0 0 500px;
       border: 1px solid red;
-      width: 10px; }
-      .panels_one_one--info p {
-        border: 1px solid green;
-        position: absolute;
-        margin: 20px 0 0 0; }
+      width: 70%; }
   .panels_two {
     border: 1px solid purple;
     height: 33.33%; }

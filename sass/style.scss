@@ -76,7 +76,7 @@ nav ul {
 nav ul li {
     display: inline-block;
     padding: 0 10px 0 0px;
-    float: center;
+    //float: center;
 }
 
 nav ul li:not(:first-child) {
@@ -157,19 +157,21 @@ nav ul li a {
     position: relative;
 
     &_one {
+        border: 1px solid green;
         height: 33.33%;
-        &_one--info {
-            
-            background-image: url(../img/david-latorre-romero-0tNF_mHm_Ls-unsplash.jpg);
-            float: right;
-            border: 1px solid red;
-            width: 10px;
-            p {
-                border: 1px solid green;
-                position: absolute;
-                margin: 20px 0 0 0;
-            }
+        
+        &_one--img {
+            background-image: url(../img/side1.jpg);
+            width: 100px;
+            color: red;
         }
+            p {
+                float: right;
+                position: absolute;
+                margin: 20px 0 0 500px;
+                border: 1px solid red;
+                width: 70%;
+            }
     }
 
     &_two {
