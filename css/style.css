@@ -115,9 +115,10 @@ nav ul li a {
   .panels_one {
     border: 1px solid green;
     height: 33.33%; }
-    .panels_one_one--img {
+    .panels_one--img {
       background-image: url(../img/side1.jpg);
-      width: 100px;
+      width: 40%;
+      height: 100%;
       color: red; }
     .panels_one p {
       float: right;

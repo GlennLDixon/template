@@ -155,16 +155,19 @@ nav ul li a {
     background-color: $grey;
     border: 2px solid red;
     position: relative;
-
+    
+    
     &_one {
         border: 1px solid green;
         height: 33.33%;
+                
+        &--img {
+                    background-image: url(../img/side1.jpg);
+                    width: 40%;
+                    height: 100%;
+                    color: red;
+                    }
         
-        &_one--img {
-            background-image: url(../img/side1.jpg);
-            width: 100px;
-            color: red;
-        }
             p {
                 float: right;
                 position: absolute;
